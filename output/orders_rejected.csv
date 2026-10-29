@@ -1,0 +1,7 @@
+order_id,reasons,order_date,customer_email,city,product_sku,quantity,unit_price_kes,status
+ORD-7006,missing customer_email,2026-10-15,,Nakuru,SKU-SUGAR-2KG,2,330,PENDING
+ORD-7009,quantity not a number,2026-10-15,hassan.m@example.co.ke,Mombasa,SKU-RICE-5KG,abc,1150,SHIPPED
+ORD-7013,unit_price_kes not positive,2026-10-16,otieno.b@example.co.ke,Kisumu,SKU-SUGAR-2KG,1,-330,DELIVERED
+ORD-7016,invalid customer_email,2026-10-17,not-an-email,Nakuru,SKU-RICE-5KG,1,1150,PENDING
+ORD-7004,duplicate order_id,2026-10-14,kamau.j@example.co.ke,Nairobi,SKU-MILK-500,12,65,DELIVERED
+ORD-7022,missing product_sku,2026-10-18,kiprop.d@example.co.ke,Eldoret,,2,185,DELIVERED
